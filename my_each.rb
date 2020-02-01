@@ -1,5 +1,5 @@
 def my_each array 
-  if array.empty?
+  if array != []
     i = 0 
     while i < array.size 
       yield array[i]
